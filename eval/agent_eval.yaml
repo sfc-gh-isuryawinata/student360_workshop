@@ -1,0 +1,13 @@
+evaluation:
+  agent_params:
+    agent_name: "STUDENT360_LAB.AGENTS.STUDENT_SUCCESS_ANALYST"
+    agent_type: "CORTEX AGENT"
+  run_params:
+    label: "Go-live gate"
+  source_metadata:
+    type: "dataset"
+    dataset_name: "STUDENT360_LAB.AGENTS.STUDENT_SUCCESS_EVALSET"
+metrics:
+  - "answer_correctness"
+  - "logical_consistency"
+  - "tool_selection_accuracy"
